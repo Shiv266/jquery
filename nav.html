@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	    <div class="head">
+        <h1>Toggler Navbar</h1>
+        </div>
+	    <header>
+	  <!-- navbar -->
+		 <nav>
+			<!-- toggler -->
+	     <a href="#" class="toggle-menu">&#9776;</a>
+			<!-- lists -->
+		 <ul class="list open" id="nav">
+			<li><a href="#"><span class="n">Navbar</span></a></li>
+			<li><a href="#"><span class="h">Home</span></a></li>
+				<!-- Dropdown -->
+			<li><a href="#"><span class="f"><small>Features</small></span><i class="fa fa-angle-down fa-1x"></i></a>
+                <ul>
+					<li><a href="#">Air Ticket</a></li>
+					<li><a href="#">Bus Ticket</a></li>
+					<li><a href="#">Train Ticket</a></li>
+					<li><a href="#">Ship Ticket</a></li>
+					<li><a href="#">Car Booking</a></li>
+				</ul>
+			</li>
+			 <li><a href="#"><span class="f"><small>Pricing</small></span></a></li>
+			<li class="submenu"><a href="#"><span class="p"><small>Disabled</small></span></a>
+			</li>
+		</nav>
+	   </header>	
+	<!-- jquery script -->
+	   <script src="jquery-3.3.1.min.js"></script>
+       <script src="nav.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>Header</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+  <link rel="stylesheet" href="modal.css">
+  <link href="https://fonts.googleapis.com/css?family=Modern+Antiqua" rel="stylesheet">
+</head>
+
+<body>
+      <!-- container part -->
+     <div class="container">
+     <!-- button -->
+     <a class="btn" popup-open="pp" href="#">Modal</a>
+ 
+      <div class="popup" popup="pp">
+      <!-- body of modal-->
+     <div class="popup-in">
+     <header class="header">
+     <h2 class="title">Modal Title</h2>
+     <a href="#" class="popup-close" popup-close="pp">&times;</a>
+     </header>
+ 
+    
+     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+    <!-- footer -->
+
+     <footer class="footer">
+
+     <!-- button inside footer -->
+
+     <a href="#modal" class="close-btn" popup-close="pp">Close</a>
+     <a href="#modal" class="save-btn">Save changes</a>
+    </footer>
+    </div>
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="modal.js"></script>
+    </body>
+    </html>

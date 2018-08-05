@@ -1,0 +1,43 @@
+body{
+    background-color: #8fbc8f;
+     font-family: 'Modern Antiqua', cursive;
+}
+.accordion * {
+    box-sizing:border-box;
+}
+
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:5px;
+    background:#90ee90;
+}
+
+/* section- title styling */
+.title {
+    width:100%;
+    padding:25px;
+    display:inline-block;
+    border-bottom:2px solid #1a1a1a;
+    background:#006400;
+    transition:all linear 0.15s;
+    font-size:30px;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+}
+
+.title.active,
+.title:hover {
+    background:#4c4c4c;
+    text-decoration:none;
+}
+
+.section:last-child .title {
+    border-bottom:none;
+}
+
+ /* section content styling */
+.content {
+    padding:15px;
+    display:none;
+}
