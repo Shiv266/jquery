@@ -1,6 +1,6 @@
 	$(document).ready(function(){
 
-		var v= "#nav", x = "active";	
+		let v= "#nav", x = "active";	
         /* whenever the toggler is pressed */
 		$('.toggle-menu').click(function(e){
                   

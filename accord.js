@@ -2,12 +2,12 @@
 $(document).ready(function() {
 	function close() {
 		$('.accordion .title').removeClass('active');
-		$('.accordion .content').slideUp(300).removeClass('open');
+		$('.accordion .content').slideUp(400).removeClass('open');
 	}
 
 	$('.title').click(function(e) {
 	    // hold the current value
-		var value = $(this).attr('href');
+		let value = $(this).attr('href');
 
 		if($(e.target).is('.active')) {
 			close();
@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 			// add active class to section
 			$(this).addClass('active');
-	        $('.accordion ' + value).slideDown(300).addClass('open');
+	        $('.accordion ' + value).slideDown(400).addClass('open');
 		}
 
 		e.preventDefault();

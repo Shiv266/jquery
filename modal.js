@@ -1,17 +1,19 @@
+$(document).ready(function() {
 $(function() {
 	//----- OPEN
 	$('[popup-open]').on('click', function(e) {
-		var target = jQuery(this).attr('popup-open');
-		$('[popup="' + target + '"]').fadeIn(350);
+		let target = jQuery(this).attr('popup-open');
+		$('[popup="' + target + '"]').fadeIn(300);
 
 		e.preventDefault();
 	});
 
 	//----- CLOSE
 	$('[popup-close]').on('click', function(e) {
-		var target = jQuery(this).attr('popup-close');
-		$('[popup="' + target + '"]').fadeOut(350);
+		let target = jQuery(this).attr('popup-close');
+		$('[popup="' + target + '"]').fadeOut(300);
 
 		e.preventDefault();
 	});
+});
 });
