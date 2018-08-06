@@ -120,7 +120,6 @@ header{
 @media only screen and (max-width: 538px){
 	.toggle-menu{
 		display: block;
-		
 		max-width: min-content;
 		margin: 1rem auto;
 		background-color: #393939;
@@ -145,7 +144,6 @@ header{
 		left: 0;
 		top:0;
 		background-color: #fff;
-		
 		max-height: 0;
 		overflow: hidden;
 	
